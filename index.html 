@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+  </head>
+  <body onLoad="alert('Welcome to my site.');">
+
+<a href="https://illbehonest.com/" onMouseOver="alert('Amazing Content!');">Check this out!</a>
+
+<form>
+  <input type="button" value="Click here" onClick="alert('Good job!')"/>
+</form>
+
+<h1>My Website</h1>
+<h2>Places I have been</h2>
+<ul>
+  <li><a data-img="arizona-photo" id="arizona" href="#">Arizona</a>
+  </li>
+  <li><a data-img="maine-photo" id="maine" href="#">Missouri</a>
+  </li>
+  <li><a data-img="colorado-photo" id="colorado" href="#">Colorado</a>
+  </li>
+  </ul>
+
+  <img class="hide" id="arizona-photo" src="IMG_8921.JPG">
+  <img class="hide" id="maine-photo" src="B1B09025-F3BE-4406-8891-319C055B6C13.JPG">
+  <img class="hide" id="colorado-photo" src="IMG_8210.PNG">
+
+
+    <script src="events.js"></script>
+  </body>
+</html>
